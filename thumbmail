@@ -1,0 +1,74 @@
+<div class="row">
+                <div id="#" class="col-md-12">
+                    <div class="col-sm-4 col-md-4">
+                        <div class="content">
+                            <div class="thumbnail">
+                                <div class="titulo" style="margin-top:-15px;background-color:#ff6600;">
+                                    <h2 style="text-align:center;color:#ffffff;">2 Mega</h2>
+                                    <h3 style="padding-left:30px;font-weight: bold;"><sup>R$</sup> 55,00</h3>
+                                </div>
+                                <div class="caption">
+                                    <ul class="list-unstyled">
+                                        <li><img height="10px" src="img/glyphicons-207-ok.png"> Download: 2 Mb</li>
+                                        <li><img height="10px" src="img/glyphicons-207-ok.png"> Upload: 820 Kb</li>
+                                        <li><img height="10px" src="img/glyphicons-207-ok.png"> Disponível apenas na cidade de Nova Cruz-RN</li>
+                                    </ul>
+                                    <p>
+                                        <a href="#" class="btn btn-primary btn-xs" style="color:#ffffff;">
+                                            Fazer Pedido
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-md-4">
+                        <div class="content">
+                            <div class="thumbnail">
+                                <div class="titulo" style="margin-top:-15px;background-color:#ff6600;">
+                                    <h2 style="text-align:center;color:#ffffff;">5 Mega</h2>
+                                    <h3 style="padding-left:30px;font-weight: bold;"><sup>R$</sup> 95,00</h3>
+                                </div>
+                                <div class="caption">
+                                    <ul class="list-unstyled">
+                                        <li><img height="10px" src="img/glyphicons-207-ok.png"></i> Download: 5 Mb</li>
+                                        <li><img height="10px" src="img/glyphicons-207-ok.png"> Upload: 2 Mb</li>
+                                        <li><img height="10px" src="img/glyphicons-207-ok.png"> Disponível apenas na cidade de Nova Cruz-RN</li>
+                                    </ul>
+                                    <p>
+                                        <a href="#" class="btn btn-primary btn-xs" style="color:#ffffff;">
+                                            Fazer Pedido
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-md-4"><div class="card card-member">
+                        <div class="content">
+                            
+                                <div class="titulo" style="margin-top:-15px;background-color:#ff6600;">
+                                    <h2 style="text-align:center;color:#ffffff;">10 Mega</h2>
+                                    <h3 style="padding-left:30px;font-weight: bold;"><sup>R$</sup> 180,00</h3>
+                                </div>
+                                <div class="caption">
+                                    <ul class="list-unstyled">
+                                        <li><img height="10px" src="img/glyphicons-207-ok.png"> Download: 10 Mb</li>
+                                        <li><img height="10px" src="img/glyphicons-207-ok.png"> Upload: 4 Mb</li>
+                                        <li><img height="10px" src="img/glyphicons-207-ok.png"> Disponível apenas na cidade de Nova Cruz-RN</li>
+                                    </ul>
+                                    <p>
+                                        <a href="#" class="btn btn-primary btn-xs" style="color:#ffffff;">
+                                            Fazer Pedido
+                                        </a>
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>

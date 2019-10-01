@@ -1,0 +1,99 @@
+<?php/*
+    $tabela = $_SESSION['dados'];
+    $qtde_linhas = $_SESSION['i'];
+    for ($i=0; $i < $qtde_linhas; $i++) { 
+        if (!isset($tabela[$i][8])) {
+            echo "
+            <div class='section'>
+                <div id='tabela' class='esconder'>
+                    <div class='table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl'>
+                        <table class='table  table-striped table-hover'>
+                            <caption class='text-center titulo'>CLIENTES CADASTRADOS</caption>
+                            <thead style='color:#000000;font-family:'Century Gothic';'>
+                                <tr style='text-align: center;'>
+                                    <th scope='col'>Nome</th>
+                                    <th scope='col'>CPF</th>
+                                    <th scope='col'>Telefone</th>
+                                    <th scope='col'>Cidade</th>
+                                    <th scope='col'>Endereço</th>
+                                    <th scope='col'>E-mail</th>
+                                </tr>
+                            </thead>
+                            <tbody>";
+                            $tabela = $_SESSION['cliente'];
+                            $qtde_linhas = $_SESSION['quant'];
+                            for ($i=0; $i < $qtde_linhas; $i++) { 
+                            echo"<tr>
+                                    <td>".$tabela[$i][0]." ".$tabela[$i][1]."</td>
+                                    <td>".$tabela[$i][2]."</td>
+                                    <td>".$tabela[$i][3]."</td>
+                                    <td>".$tabela[$i][7]."</td>
+                                    <td>".$tabela[$i][6]."</td>
+                                    <td>".$tabela[$i][8]."</td>
+                                    <td>
+                                        <a href='#' type='button' role='button' class='btn btn-danger' style='color:#ffffff';>Deletar</a>
+                                    </td>
+                                </tr>";
+                                    
+                            } 
+                            echo "</tbody>
+                        </table>
+                    </div>
+                </div>
+                <u><a href='javascript:void(0);' class='txt-more' id='identificador' style='color: red;' onclick='mostrar();'>Ver mais</a></u>
+            </div>";
+            echo "
+            <div class='section' style='margin-top:-50px'>
+                <div id='tabelafun' class='esconder'>
+                    <div class='table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl'>
+                        <table class='table  table-striped table-hover'>
+                        <caption class='text-center titulo'>FUNCIONÁRIOS CADASTRADOS</caption>
+                            <thead style='color:#000000;font-family:'Century Gothic';'>
+                                <tr style='text-align: center;'>
+                                    <th scope='col'>Nome</th>
+                                    <th scope='col'>CPF</th>
+                                    <th scope='col'>Telefone</th>
+                                    <th scope='col'>E-mail</th>
+                                    <th scope='col'>Adm</th>
+                                </tr>
+                            </thead>
+                            <tbody>";
+                                $tabelaf = $_SESSION['func'];
+                                //var_dump($_SESSION['func']);
+                                $qtde_linhasf = $_SESSION['quantF'];
+                                //var_dump($_SESSION['quantF']);
+                                for ($i=0; $i < $qtde_linhasf; $i++) { 
+                                echo"<tr>
+                                        <td>".$tabelaf[$i][0]." ".$tabelaf[$i][1]."</td>
+                                        <td>".$tabelaf[$i][2]."</td>
+                                        <td>".$tabelaf[$i][3]."</td>
+                                        <td>".$tabelaf[$i][4]."</td>";
+                                        if($tabelaf[$i][6]==1){
+                                            echo "<td>Sim</td>";
+                                            if($_SESSION['admin']==false){
+                                                echo "<td>
+                                                    <a href='#' disabled type='button' role='button' class='btn btn-danger' style='color:#ffffff';>Deletar</a>
+                                                </td>";
+                                            }else{
+                                                echo " 
+                                                <td>
+                                                    <a href='#' type='button' role='button' class='btn btn-danger' style='color:#ffffff';>Deletar</a>
+                                                </td>";
+                                            }
+                                        }else{
+                                            echo "<td>Não</td> 
+                                            <td>
+                                                <a href='#' type='button' role='button' class='btn btn-danger' style='color:#ffffff';>Deletar</a>
+                                            </td>";
+                                        }
+                                echo "</tr>";   
+                                } 
+                            echo "</tbody>
+                        </table>
+                    </div>
+                </div>
+                <u><a href='javascript:void(0);' class='txt-more' id='identificadorFun' style='color: red;' onclick='mostrarFun();'>Ver mais</a></u>
+            </div>";
+            }
+        }*/
+?>

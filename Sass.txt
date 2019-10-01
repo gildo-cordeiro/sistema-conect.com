@@ -1,0 +1,2 @@
+cd C:\xampp\htdocs\Conect.com2
+sass --watch arquivos/scss:arquivos/css

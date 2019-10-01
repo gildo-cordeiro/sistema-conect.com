@@ -1,0 +1,77 @@
+
+
+<div class="panel panel-default">
+<div class="panel-heading"  style="font-family:'Century Gothic';">Dados do Usuario</div>
+<?php 
+    echo "<ul class='list-group'  style='font-family:'Century Gothic';'>";
+        $tabela = $_SESSION['dados'];
+        $qtde_linhas = $_SESSION['i'];
+        for ($i=0; $i < $qtde_linhas; $i++) {
+            echo "<li class='list-group-item text-right'><span class='pull-left'><strong>Nome:</strong></span>";
+                if ($tabela[$i][1]!="" || $tabela[$i][2]!=""){
+                    echo $tabela[$i][1]." ".$tabela[$i][2]; 
+                }else{
+                     echo "\"???\"";
+                }
+            echo "</li>";
+
+            echo "<li class='list-group-item text-right'><span class='pull-left'><strong>CPF:</strong></span>";
+                if ($tabela[$i][3]!=""){
+                    echo $tabela[$i][3]; 
+                }else{
+                     echo "\"???\"";
+                }
+            echo "</li>";
+            echo "<li class='list-group-item text-right'><span class='pull-left'><strong>Tel.:</strong></span>";
+                if ($tabela[$i][4]!=""){
+                    echo $tabela[$i][4]; 
+                }else{
+                     echo "\"???\"";
+                }
+            echo "</li>";
+            echo "<li class='list-group-item text-right'><span class='pull-left'><strong>CEP:</strong></span>";
+                if ($tabela[$i][5]!=""){
+                    echo $tabela[$i][5]; 
+                }else{
+                     echo "\"???\"";
+                }
+            echo "</li>";
+            echo "<li class='list-group-item text-right'><span class='pull-left'><strong>Estado:</strong></span>";
+                if ($tabela[$i][6]!=""){
+                    echo $tabela[$i][6]; 
+                }else{
+                     echo "\"???\"";
+                }
+            echo "</li>";
+            echo "<li class='list-group-item text-right'><span class='pull-left'><strong>Endereço:</strong></span>";
+                if ($tabela[$i][7]!=""){
+                    echo $tabela[$i][7]; 
+                }else{
+                     echo "\"???\"";
+                }
+            echo "</li>";
+            echo "<li class='list-group-item text-right'><span class='pull-left'><strong>Cidade:</strong></span>";
+                if ($tabela[$i][8]!=""){
+                    echo $tabela[$i][8]; 
+                }else{
+                     echo "\"???\"";
+                }
+            echo "</li>";
+            echo "<li class='list-group-item text-right'><span class='pull-left'><strong>E-mail:</strong></span>";
+                if ($tabela[$i][9]!=""){
+                    echo $tabela[$i][9]; 
+                }else{
+                     echo "\"???\"";
+                }
+            echo "</li>";
+            echo "<li class='list-group-item text-right'><span class='pull-left'><strong>Senha:</strong></span>";
+                if ($tabela[$i][10]!=""){
+                    echo $tabela[$i][10]; 
+                }else{
+                     echo "\"???\"";
+                }
+            echo "</li>";
+        }
+    "</ul>";
+?> 
+</div>

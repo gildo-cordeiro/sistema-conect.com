@@ -1,0 +1,99 @@
+/*<css do Login>*/
+.btn-primary, .btn-primary {
+  background-color: #ff3300 !important;
+  border-color: #ff3300 !important;
+}
+
+.btn-primary:hover {
+  background-color: #ff6600 !important;
+  border-color: #ff6600 !important;
+}
+
+.btn-primary, .btn-danger {
+  background-color: #dd0000 !important;
+  border-color: #dd0000 !important;
+}
+
+.btn-danger:hover {
+  background-color: #ff0000 !important;
+  border-color: #ff0000 !important;
+}
+
+/*.nav-menu{
+  color: #ff3300 !important;
+}*/
+.inc, .inc:hover {
+  color: #ff3300;
+}
+
+.carousel-caption p {
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #ff3300 !important;
+  font-weight: bold !important;
+}
+
+.navbar-brand:hover {
+  color: #ff3300;
+}
+
+/*-------------------------*/
+.span1 {
+  margin-left: 2%;
+  font-size: 40px;
+}
+
+.span2 {
+  margin-left: 15%;
+  font-size: 40px;
+}
+
+.span3 {
+  margin-left: 20%;
+  font-size: 35px;
+}
+
+.span4 {
+  margin-left: 5%;
+  font-size: 40px;
+}
+
+p {
+  text-align: justify;
+}
+
+.apresentacao {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 18px;
+}
+
+#footer {
+  background: #000000 !important;
+}
+
+#footer h5 {
+  color: white;
+}
+
+#footer a {
+  color: white;
+}
+
+/*Boleto*/
+#desc {
+  font-size: 25px !important;
+}
+
+.top_logo {
+  text-align: center;
+}
+
+.spanPlan {
+  position: absolute !important;
+  background-color: #ff3300;
+}
+
+/*# sourceMappingURL=style.css.map */

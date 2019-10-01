@@ -1,0 +1,95 @@
+<div class="modal fade" id="ModalVia2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="LabelModal">Emitir 2ª Via</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <form class="form" action="AtulaizarCliente.php" method="post" id="registrationForm">
+            <div class="form-group">
+                <div class="col-xs-6">
+                    <label for="first_name" ><h4>Nome</h4></label>
+                    <input type="text" style="font-family:'Century Gothic';"class="form-control" name="first_name" id="first_name" placeholder="Ex.: Matheus" title="enter your first name if any.">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-6">
+                <label for="last_name"><h4>Sobrenome</h4></label>
+                    <input type="text" style="font-family:'Century Gothic';" class="form-control" name="last_name" id="last_name" placeholder="Ex.: Henrique Estevam" title="enter your last name if any.">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-6">
+                    <label for="phone"><h4>Telefone</h4></label>
+                    <input type="text" style="font-family:'Century Gothic';" class="form-control" name="phone" id="phone" placeholder="999999999" title="" maxlength=11 onKeyup="num(this);">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-6">
+                    <label for="mobile"><h4>CPF</h4></label>
+                    <input type="text" style="font-family:'Century Gothic';" class="form-control" name="cpf" id="mobile" placeholder="000.000.000-00" title="" maxlength=14 onKeyup="MaskCPF(this);">
+                </div>
+            </div>
+            <!--<div class="form-group">
+                <div class="col-xs-6">
+                    <label for="email"><h4>Email</h4></label>
+                    <input type="email" style="font-family:'Century Gothic';" class="form-control" name="email" id="email" placeholder="you@email.com" title="enter your email.">
+                </div>
+            </div>-->
+            <div class="form-group">
+                <div class="col-xs-6">
+                    <label for="cep"><h4>CEP</h4></label>
+                    <input type="text" style="font-family:'Century Gothic';" class="form-control" name="cep" id="cep" placeholder="00000-000" title="" maxlength="9" onKeyup="MaskTelCEP(this);">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-6">
+                    <label for="estado"><h4>Estado</h4></label>
+                    <input type="text" style="font-family:'Century Gothic';" class="form-control" name="estado" id="estado" placeholder="RN" maxlength="2">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-6">
+                    <label for="enderco"><h4>Endereço</h4></label>
+                    <input type="text" style="font-family:'Century Gothic';" class="form-control" name="enderco" id="enderco" placeholder="Rua 15 de Jorge, 24, Centro" title="enter your password.">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-6">
+                    <label for="cidade"><h4>Cidade</h4></label>
+                    <input type="text" style="font-family:'Century Gothic';" class="form-control" name="cidade" id="cidade" placeholder="Hogwarts" title="enter your password.">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-6">
+                    <label for="password"><h4>Senha</h4></label>
+                    <input type="password" style="font-family:'Century Gothic';" class="form-control" name="password" id="password" placeholder="password" title="enter your password.">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-6">
+                <label for="password2"><h4>Verifcar Senha</h4></label>
+                    <input type="password" style="font-family:'Century Gothic';" class="form-control" name="password2" id="password2" placeholder="password2" title="enter your password2.">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <br>
+                    <button  style="font-family:'Century Gothic';" class="btn btn-lg btn-success" type="submit" name="salvar"><img src="img/glyphicons-194-ok-sign.png" alt=""> Salvar</button>
+                    <button  style="font-family:'Century Gothic';"class="btn btn-lg" type="reset"><img src="img/glyphicons-86-repeat.png" alt=""> Resetar</button>
+                    <br><br>
+                </div>
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="reset" class="btn btn-danger" data-dismiss="modal" style="color:#ffffff;">Cancelar</button>
+        <button  name="enviar" type="submit" class="btn btn-primary">OK</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>

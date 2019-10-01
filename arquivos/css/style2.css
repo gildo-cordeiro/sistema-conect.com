@@ -1,0 +1,16 @@
+.spanPlan {
+  position: absolute !important;
+  background-color: #ff3300;
+  border-radius: 9px;
+  color: #ffffff;
+  font-weight: bolder;
+  z-index: 1;
+  margin-left: -50%;
+  padding: 6px 6px 6px 6px;
+}
+
+.ajuda a:hover {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style2.css.map */
